@@ -4,6 +4,7 @@ import { useTheme } from '../hooks/useTheme';
 import ThemeSwitcher from '../components/UI/ThemeSwitcher';
 import { AudioControls } from '../hooks/useAudio';
 import vtuberData from '../data/vtuberData';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const Header = ({ activeTab, onNavItemClick, isMenuOpen, setIsMenuOpen }) => {
   const { theme } = useTheme();

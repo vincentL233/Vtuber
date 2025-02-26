@@ -14,6 +14,7 @@ import LoadingScreen from './components/UI/LoadingScreen';
 import { useTheme } from './hooks/useTheme';
 import { useAudio } from './hooks/useAudio';
 import PageTransition from './animations/PageTransition';
+import AboutPage from './pages/AboutPage';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('home');
